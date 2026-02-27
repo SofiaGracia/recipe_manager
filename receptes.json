@@ -1,0 +1,177 @@
+{
+  "recipes": [
+    {
+      "id": "62dd",
+      "nom": "Fideus amb nata",
+      "temps": "10",
+      "ingredients": [
+        {
+          "id": 1772121783372,
+          "nom": "Nata",
+          "quantitat": "50gr"
+        },
+        {
+          "id": 1772121786884,
+          "nom": "Fideus",
+          "quantitat": "100gr"
+        }
+      ],
+      "elaboracio": "Bollir els fideus, posar-li la nata",
+      "imatge": ""
+    },
+    {
+      "id": "09c0",
+      "nom": "Sandvitx de nutella",
+      "temps": "5",
+      "ingredients": [
+        {
+          "id": 1,
+          "nom": "Nutella",
+          "quantitat": "20gr"
+        },
+        {
+          "id": 2,
+          "nom": "pà",
+          "quantitat": "2"
+        }
+      ],
+      "elaboracio": "Unta el pà amb la nutella",
+      "imatge": ""
+    },
+    {
+      "id": "af5f",
+      "nom": "Iogur amb plàtan",
+      "temps": "5",
+      "ingredients": [
+        {
+          "id": 1772129904114,
+          "nom": "Iogur",
+          "quantitat": "100gr"
+        },
+        {
+          "id": 1772129912750,
+          "nom": "Plàtan",
+          "quantitat": "1"
+        }
+      ],
+      "elaboracio": "Talla el plàtan i posal al iogur",
+      "imatge": ""
+    },
+    {
+      "id": "f442",
+      "nom": "Macarrons amb tomaquet",
+      "temps": "20",
+      "ingredients": [
+        {
+          "id": 1772130395634,
+          "nom": "Pasta",
+          "quantitat": "100gr"
+        },
+        {
+          "id": 1772130407067,
+          "nom": "Tomaquet",
+          "quantitat": "50gr"
+        },
+        {
+          "id": 1772130417351,
+          "nom": "Alfàbega",
+          "quantitat": "10gr"
+        },
+        {
+          "id": 1772130428718,
+          "nom": "Formatge",
+          "quantitat": "10gr"
+        }
+      ],
+      "elaboracio": "Bollix els macarrons segons les instruccions del paquet.",
+      "imatge": ""
+    },
+    {
+      "id": "b781",
+      "nom": "Amanida de pollastre",
+      "temps": "15",
+      "ingredients": [
+        {
+          "id": 1772131000001,
+          "nom": "Pit de pollastre",
+          "quantitat": "150gr"
+        },
+        {
+          "id": 1772131000002,
+          "nom": "Enciam",
+          "quantitat": "100gr"
+        },
+        {
+          "id": 1772131000003,
+          "nom": "Tomaca",
+          "quantitat": "1"
+        },
+        {
+          "id": 1772131000004,
+          "nom": "Oli d'oliva",
+          "quantitat": "10ml"
+        }
+      ],
+      "elaboracio": "Cuina el pollastre a la planxa, talla'l i barreja'l amb l'enciam i la tomaca. Afegeix oli.",
+      "imatge": ""
+    },
+    {
+      "id": "c992",
+      "nom": "Arròs amb verdures",
+      "temps": "25",
+      "ingredients": [
+        {
+          "id": 1772132000001,
+          "nom": "Arròs",
+          "quantitat": "100gr"
+        },
+        {
+          "id": 1772132000002,
+          "nom": "Pebrot",
+          "quantitat": "1"
+        },
+        {
+          "id": 1772132000003,
+          "nom": "Carabassó",
+          "quantitat": "1"
+        },
+        {
+          "id": 1772132000004,
+          "nom": "Ceba",
+          "quantitat": "1/2"
+        }
+      ],
+      "elaboracio": "Sofregeix les verdures, afegeix l'arròs i l'aigua i deixa coure fins que estiga fet.",
+      "imatge": ""
+    },
+    {
+      "id": "d553",
+      "nom": "Lasaña de carn",
+      "temps": "30",
+      "ingredients": [
+        {
+          "id": 1772133000001,
+          "nom": "Làmines de lasanya",
+          "quantitat": "6"
+        },
+        {
+          "id": 1772133000002,
+          "nom": "Carn picada",
+          "quantitat": "200gr"
+        },
+        {
+          "id": 1772133000003,
+          "nom": "Tomaca fregida",
+          "quantitat": "150gr"
+        },
+        {
+          "id": 1772133000004,
+          "nom": "Formatge ratllat",
+          "quantitat": "50gr"
+        }
+      ],
+      "elaboracio": "Cuina la carn, afegeix la tomaca i munta la lasanya amb capes. Forneja durant 20 minuts.",
+      "imatge": ""
+    }
+  ]
+}
