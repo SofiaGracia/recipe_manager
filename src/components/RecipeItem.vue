@@ -6,8 +6,8 @@
                 alt="recipe"
             />
         </figure>
-        <div class="card-body">
-            <h2 class="card-title">
+        <div class="card-body shadow-lg">
+            <h2 class="card-title titol-important">
                 {{ recipe.nom }}
                 <div class="badge badge-secondary">{{ recipe.temps }}min</div>
             </h2>

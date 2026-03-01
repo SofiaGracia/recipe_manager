@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-titol-important: #e7dfd8;
+  --color-titol-secundary: #7d4ff1;
+}
+
+/* Usa la fuente solo para títulos importantes */
+h1,
+.titol-important {
+  font-family: 'Playfair Display', serif;
+  color: var(--color-titol-important);
+}
+
+.titol-secundary {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-titol-secundary);
+}

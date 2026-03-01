@@ -218,18 +218,21 @@
                                             </div>
                                         </div>
                                         <!-- Botons tick o x -->
-                                        <button
-                                            class="btn btn-success"
-                                            @click.prevent="guardarIng(ing)"
-                                        >
-                                            💾 Guardar
-                                        </button>
-                                        <button
-                                            class="btn btn-danger ml-2"
-                                            @click.prevent="cancelarIng(ing)"
-                                        >
-                                            ❌ Cancelar
-                                        </button>
+                                         <div class="mt-3">
+
+                                             <button
+                                                 class="btn btn-success"
+                                                 @click.prevent="guardarIng(ing)"
+                                             >
+                                                 💾 Guardar
+                                             </button>
+                                             <button
+                                                 class="btn btn-danger ml-2"
+                                                 @click.prevent="cancelarIng(ing)"
+                                             >
+                                                 ❌ Cancelar
+                                             </button>
+                                         </div>
                                     </div>
                                     <div
                                         v-else
@@ -338,6 +341,9 @@
                                 <p class="text-xs/5 text-gray-400">
                                     PNG, JPG, GIF up to 10MB
                                 </p>
+                                <p class="text-xs/5 text-gray-400">
+                                    Esta funcionalitat encara no està implementada
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -381,10 +387,18 @@ export default {
     watch: {
         recipe: {
             handler(newRecipe) {
+
+                let ings = newRecipe.ingredients || [];
+
+                if (this.editando || this.ingEditado) {
+                    ings = this.localRecipe.ingredients;
+                }
+
                 this.localRecipe = {
                     ...newRecipe,
-                    ingredients: newRecipe.ingredients || [],
+                    ingredients:ings,
                 };
+
             },
             deep: true,
         },
@@ -425,6 +439,7 @@ export default {
         editIngredient(ing) {
             if (!(ing && ing.id)) return;
 
+            console.log('acabat de assignar',this.ingEditado)
             // Guardar en un objecte les propietats del ingredient
             // de manera que quan es cancel·la podem tornar a recuperar les propietats
             this.ingEditado = Object.assign({}, ing);

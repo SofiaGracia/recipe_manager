@@ -2,14 +2,14 @@
     <!-- Hero -->
     <div class="flex flex-col p-5">
         <div class="flex flex-col items-center">
-            <h5 class="p-5">CUINA RÁPIDA I FÀCIIL</h5>
-            <h1 class="p-5">LA TEUA WEB DE RECEPTES EXPRÉS</h1>
-            <span class="p-5"
+            <h5 class="p-5 titol-secundary text-3xl">CUINA RÁPIDA I FÀCIL</h5>
+            <h1 class="p-5 text-6xl">La teua web de receptes exprés</h1>
+            <span class="p-5 text-xl"
                 >Tens fam? Descobreix les nostres receptes disponibles per a
                 cuinar en minuts.</span
             >
             <button
-                class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl"
+                class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl titol-secundary"
                 @click="getAleaRecipes"
             >
                 Donam tres receptes
@@ -26,7 +26,7 @@
         />
     </div>
     <div class="flex flex-col p-5 items-center">
-        <button @click="navegarRecipes" class="btn btn-ghost">
+        <button @click="navegarRecipes" class="btn btn-ghost titol-important text-3xl">
             Veure totes les receptes<svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
